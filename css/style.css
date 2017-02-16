@@ -62,7 +62,7 @@ p {
     top: 2%;
     background: #cccccc;
     z-index: -2;
-
+    border: 2px solid #000000;
 }
 
 .page3 {
@@ -70,7 +70,7 @@ p {
     top: 4%;
     background: #acacac;
     z-index: -3;
-
+    border: 2px solid #000000;
 }
 
 .cup {
@@ -178,13 +178,16 @@ p {
     vertical-align: top;
 }
 
+ .social-link {
+   padding: 0 5px;
+ }
+
 .sprite {
     display: inline-block;
     width: 30px;
     height: 30px;
     vertical-align: middle;
     background: url("../img/social.png") no-repeat;
-    margin-right: 5px;
 }
 
 .facebook {
